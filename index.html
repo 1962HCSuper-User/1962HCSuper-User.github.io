@@ -1260,7 +1260,7 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
 <script>
-  emailjs.init("IgAfc-6O1hyIt"); // your PUBLIC KEY
+  emailjs.init("IgAfc-6O1hyItlHlk"); // your PUBLIC KEY
 </script>
 
     <script>
@@ -1374,7 +1374,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // 1️⃣ SEND EMAIL TO YOU (ADMIN)
-    emailjs.send("service_e7gn", "template_dyb9yol", {
+    emailjs.send("service_e7gnzal", "template_dyb9yol", {
       name: name,
       email: email,
       subject: subject,
@@ -1383,7 +1383,7 @@ document.addEventListener("DOMContentLoaded", function () {
     .then(function () {
 
       // 2️⃣ AUTO-REPLY TO USER
-      return emailjs.send("service_e7gn", "template_eec2es", {
+      return emailjs.send("service_e7gnzal", "template_eec2esn", {
         name: name,
         email: email,
         subject: subject,
